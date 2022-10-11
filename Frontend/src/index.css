@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input:focus{
+  outline: none;
+  border: none;
+}
+::placeholder{
+  color:white;
+}

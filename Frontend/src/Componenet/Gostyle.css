@@ -1,0 +1,15 @@
+.cirle{
+    outline-offset: -1px;
+  
+    transition: outline-offset .5s ease-in;
+    animation: GO 3s infinite;
+  }
+ 
+  @keyframes GO {
+    from { outline: 0px solid  #1cbfff;
+        border: 0px solid  #1cbfff;
+        outline-offset: 0px;}
+    to { outline: 1px solid  #1cbfff;
+        border: 1px solid  #1cbfff;
+        outline-offset: 20px;}
+  }
